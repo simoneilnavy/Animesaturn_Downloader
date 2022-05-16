@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AnimeSaturnlogo.png" />
+    <None Remove="download.png" />
+    <None Remove="www.animesaturn.it_watch_file=r6Ew6GFlaqSRw&amp;server=0.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.42" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="AnimeSaturnlogo.png" />
+    <Resource Include="download.png" />
+    <Resource Include="www.animesaturn.it_watch_file=r6Ew6GFlaqSRw&amp;server=0.png" />
+  </ItemGroup>
+
+</Project>
